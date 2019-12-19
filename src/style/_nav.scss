@@ -1,0 +1,191 @@
+$height:38px;
+$positon:relative;
+@mixin positionvalue($pvalue:relative,$left:0px,$top:0px){
+    position: $pvalue;
+    left:$left;
+    top:$top;
+}
+
+// li{
+//     list-style: none;
+// }
+
+#h-nav{
+    width: 1440px;
+    height: $height;
+    margin: 0 auto;
+    position:relative;
+}
+   .container{
+    width: 1200px;
+    height: $height;
+    margin: 0 auto;
+    position: $positon;
+    z-index: 120;
+    background-color: inherit;
+    .side-nav{
+        position: $positon;
+        float: left;
+        width: 185px;
+        height: 38px;
+        padding-left: 15px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 35px;
+        background-color: #db3832;
+        .sprite{
+            width: 22px;
+            height: 22px;
+            background-position: -20px -20px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 17px;
+            .fenlei{
+            font-family: "Microsoft YaHei", "PingFangSC-Regular", tahoma, arial, 'Hiragino Sans GB', sans-serif !important;
+            font-weight: bold !important;
+            padding-left: 20px; //有问题这里
+        }
+        }
+        }
+    }
+       
+
+.side-ul{
+    @include positionvalue(absolute,0px,38px);
+    width: 200px;
+    height: 524px;
+    font-size: 0;
+    font-weight: normal;
+    background-color: #de4b46;
+    .left-list{
+    height: 50px!important;
+    line-height: 50px !important;
+    position: relative;
+    
+
+     .img-wrap{
+        width: 20px !important;
+        height: 20px !important;
+        display: inline-block;
+        @include positionvalue(absolute,30px,-17px);
+        margin: auto;
+        bottom: 0;
+        z-index: 1;
+     }
+     a{
+        position: $positon;
+        display: block;
+        padding-left: 70px;
+        color: #fff;
+        background-color: transparent;
+        text-decoration: none;
+        outline: none;
+        font-size: 14px;
+    }
+    }  
+}
+
+.left-list:hover{
+    background: white;
+}
+.left-list:hover a{
+    color:#de4b46;
+  }
+.left-list:hover .hov-show{
+    display: block;
+}
+
+.first-category{
+    height: 48px;
+    line-height: 50px !important;
+    font-weight: bold;
+}
+
+//右边导航部分
+// #h-nav{
+// .main-nav{
+//     position:absolute;
+//     top: 0;
+//     text-align: center;
+//     width: 1200px;
+//     height: 38px;
+//     list-style: none;
+//     font-size: 18px;
+//     // margin-top: 1px;  
+// }
+// }
+
+//轮播图部分
+.swiper{
+    width: 1440px;
+    height: 524px;
+    .swiper-container{
+     width: 1200px;
+     height: 100%;
+     margin: 0 auto;
+     position: relative;
+     overflow: hidden;
+     z-index: 1;
+     .lunbo{
+    //    position: absolute;
+    //    left: 0px;
+    position: relative;
+       width: 1200px;
+       height: 524px;  
+       background: pink;
+       overflow: hidden;
+     }
+    }
+}
+
+.lunbo{
+    .lunbo-ul{
+       width: 6000px;
+       height: 524px;
+       position: absolute;
+       left: 0;
+       top: 0;
+      .luobo-img{
+        float: left;
+        list-style: none;
+        width:1200px;
+        height:100%;
+    }  
+    }
+    // #yd{
+    //     // z-index: 999;
+    //     // display:block;
+    //     width: 120px;
+    //     height: 15px;
+    //     position: absolute;
+    //     left: 50%;
+    //     bottom: 0;
+    //     margin-left:5px;
+    //     cursor: pointer;
+        #aa {
+            float: left;
+            display:block;
+            width: 15px;
+            height: 15px;
+            background: green;
+            border-radius: 50%;
+            text-indent: -999em;
+            margin-right: 5px; 
+            cursor: pointer;}
+        } 
+    // }
+    
+
+            
+
+.hov-show{
+    width: 1150px;
+    height: 475px;
+    background: green;
+    position: absolute;
+    // top:0;
+    z-index: -20;
+    left: -200;
+    display: none;
+}

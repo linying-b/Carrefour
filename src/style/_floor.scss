@@ -1,0 +1,226 @@
+$width:1200px;
+$font-size:14px;
+$display:inline-block;
+
+@mixin ellipse($w:200px, $h:30px) {
+    width: $w;
+    height: $h;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@mixin ellipse-a($w:200px, $h:30px) {
+    width: $w;
+    height: $h;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: inherit;
+}
+
+.Floor-box{
+width: $width;
+height: 1158px;
+background: palegreen;
+}
+.huotitle-p{
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    line-height: 80px;
+    color: #333;
+    margin-top: 20px!important;
+    font-size: 26px !important;
+    font-weight: bold;
+    .right-choose{
+        cursor: pointer;
+        float: right;
+        color: #000;
+        margin-top: 5px;
+        height: 75px;
+        line-height: 75px;
+        font-size:$font-size;
+    }
+}
+
+
+.itemlist-box{
+    width: 262px;
+    height: 320px;
+    float: left;
+    background: rgb(252, 247, 239);
+    text-align: center;
+    .item-box{
+        margin: 10px 22px 0;
+        width: 218px;
+        height: 307px;
+   
+    .pl-title{
+        display:block;
+        width: 218px;
+        height: 42px;
+        position: relative;
+        margin-bottom:35px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px !important;
+        font-family: "PingFangSC-Medium", "Microsoft YaHei", "PingFangSC-Regular", tahoma, arial, 'Hiragino Sans GB', sans-serif !important;
+          .bottom-line{
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            right: 0;
+            display:$display;
+            width: 37px;
+            height: 2px;
+            margin: 0 auto;
+   }
+    }
+ }
+}
+
+.itemlist-box{
+    .itemlist-item{
+        display: $display;
+        border-radius: 30px;
+        color: #fff;
+        background-color: #ddbd6e;
+        opacity: 0.8;
+        line-height: 29px;
+        max-width: 100px;
+        margin-bottom: 12px;
+        text-align: center;
+        font-family: "PingFangSC-Medium", "Microsoft YaHei", "PingFangSC-Regular", tahoma, arial, 'Hiragino Sans GB', sans-serif !important;
+        // width: 100px;
+        // height: 29px;
+        // overflow: hidden;
+        // white-space: nowrap;
+        // text-overflow: ellipsis;
+        @include ellipse(100px, 29px);
+        .a-hover-white{
+            display: $display;
+            color: #fff;
+            text-decoration: none;
+            outline: none;
+            @include ellipse(85px, 29px);
+        }
+
+}
+
+
+}
+
+.itemlist-box-right{
+    width: 930px;
+    height: 320px;
+    float: right;
+    .right-a{
+        color: #666;
+        text-decoration: none;
+        outline: none;
+        background-color: transparent;
+    }
+}
+
+//活色生鲜部分需要渲染的数据部分 图片等
+.huo-goodslist{
+    clear: both;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width:$width;
+    height: 758px;
+    background: cornflowerblue;
+} 
+
+.huo-goodslist{
+    li{
+        display:$display;
+        width: 194px;
+        height: 317px;
+        overflow: hidden;
+        padding-top: 19px; 
+        background: #ddbd6e;  
+    }
+}
+.goods-shadow{
+    margin-right:1.5px;
+    margin-top: 40px!important;
+    a{
+        color: #666;
+        text-decoration: none;
+        outline: none;
+        img{
+            margin-top: 22px;
+        }
+    }
+}
+
+.floor-img-box{
+            display:$display;
+            width: 196px;
+            height: 196px;
+            position: relative;
+            img{
+                width: 156.8px;
+                height: 156.8px;
+                margin: auto;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;   
+            }
+        }
+    .p-bottom{
+     width: 182px;
+     height: 97px; 
+     margin-top: 16px;
+     margin-bottom: 10px;
+     margin-left: 12px; 
+     .p-bottom-zhekou{
+        height: 20px;
+        display: $display !important;
+        .tips{
+            display: $display !important;
+            padding: 0 4px;
+            border-radius: 2px;
+            font-size: 14px;  
+            .SimSun{
+                background: rgb(242, 48, 48);
+                color: rgb(255, 255, 255);
+                height: 20px;
+                line-height: 20px;
+                font-family: "宋体", "Microsoft YaHei", "PingFangSC-Regular", tahoma, arial, 'Hiragino Sans GB', sans-serif !important;  
+            }
+        }
+     }
+    }
+  //要注意和indexpart里面的goods-name
+    .goods-name{
+        max-width: 170px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        line-height: 17px;
+        margin-bottom: 5px;
+        font-size: 14px; 
+        @include ellipse(170px, 40px);
+        .f14{
+            display: inline-block;
+            // font-size: 14px;
+            text-align: center;
+        }
+    }
+    .f10{
+        margin-top: 12px;
+    }
+    .f16{
+        font-size: 16px!important;   
+    }
+    .mgR10{
+        margin-right: 10px;
+    }
+    .theme {
+        color: #db3832;
+    }

@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  height: 0;
+}
+
+.user-header {
+  width: 1440px;
+  height: 108px !important;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 30px rgba(193, 193, 193, 0.5);
+  position: relative;
+  z-index: 1000;
+}
+
+#h-banner {
+  position: relative;
+  z-index: 130;
+  background-color: inherit;
+}
+
+.container {
+  height: 108px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.user-logo {
+  margin: 0 !important;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #eee;
+  bottom: -185px;
+  padding: 25px 15px;
+  box-shadow: 1px 1px 30px rgba(193, 193, 193, 0.8);
+  width: 178px;
+  height: 187px !important;
+  border-radius: 0;
+  text-align: center;
+}
+
+.login-logo {
+  width: 182px;
+  height: 198px;
+}
+
+.use-title {
+  margin-left: 260px;
+  position: absolute;
+  bottom: 15px;
+  width: 168px;
+  height: 55px;
+}
+.use-title .title1 {
+  font-size: 24px;
+  color: #ea202c;
+  width: 168px;
+  height: 33px;
+}
+
+.user-header .title2 {
+  font-size: 16px;
+  color: #666;
+  height: 22px;
+  width: 168px;
+}
+
+.user-header .user-right {
+  height: 25px;
+  width: 289px;
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 120px;
+}
+.user-header .user-right .toLogin-show {
+  font-size: 14px;
+  width: 140px;
+  height: 20px;
+  color: #666;
+}
+.user-header .user-right .toLogin-show a {
+  color: #004ea2;
+  text-decoration: none;
+  outline: none;
+}
+
+.cut-languge {
+  padding-left: 30px;
+}
+
+.login-one {
+  width: 100%;
+  height: 657px;
+  position: relative;
+  background: paleturquoise;
+}
+
+.login-top {
+  width: 1200px;
+  margin: 0 auto;
+  height: 657px;
+  background-color: transparent;
+  position: relative;
+}
+
+#login-page {
+  height: 657px;
+  position: relative;
+}
+#login-page .login-form {
+  margin-left: 785px;
+  width: 492px;
+  margin-top: 33px;
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  height: 593px;
+  position: absolute;
+  right: 40px;
+  border-radius: 8px;
+}
+#login-page .login-form .login-index {
+  height: 111px;
+  line-height: 72px;
+  font-weight: bold;
+  margin: 0px;
+  border-bottom: 1px solid #eee;
+}
+#login-page .login-form .login-index .login-line {
+  height: 72px;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.dl {
+  height: 72px;
+  width: 100%;
+  display: inline-block;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #004ea2;
+}
+
+.zhanghu {
+  width: 450px;
+  height: 54px;
+  margin: 30px auto;
+  text-align: center;
+}
+.zhanghu .user-name {
+  display: inline-block;
+  width: 50px;
+  height: 34px;
+  line-height: 34px;
+}
+.zhanghu .user {
+  padding-left: 12px;
+  width: 200px;
+  height: 34px;
+  font-size: 16px;
+  border-color: #eee;
+}
+.zhanghu .tishi {
+  display: inline-block;
+  width: 140px;
+  height: 34px;
+  line-height: 34px;
+}
+
+.remember {
+  width: 450px;
+  height: 20px;
+  margin-left: 40px;
+}
+.remember .user-box {
+  display: inline-block;
+  cursor: pointer;
+  height: 20px;
+  width: 120px;
+}
+
+.login-btn {
+  width: 490px;
+  height: 74px;
+}
+.login-btn .-btn {
+  height: 54px !important;
+  width: 450px !important;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: MicrosoftYaHei;
+  font-size: 20px;
+  letter-spacing: 6px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #E9E9E9;
+  border-radius: 4px;
+}
+
+.custom-footer {
+  width: 100%;
+  height: 662px;
+}
+.custom-footer .bottom-img {
+  width: 1200px;
+  margin: auto;
+  height: 103px;
+}
+.custom-footer .bottom-img .img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.Microsoft {
+  font-family: "Microsoft YaHei", "PingFangSC-Regular", tahoma, arial, 'Hiragino Sans GB', sans-serif !important;
+}
+
+#footer {
+  background-color: #f4f5f9;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 1425px;
+  height: 559px;
+}
+
+.footer-top {
+  width: 100%;
+  height: 389px;
+  padding: 35px 0 30px 0;
+  box-sizing: border-box;
+}
+.footer-top .container {
+  background-color: #f4f5f9;
+  width: 1200px;
+  height: 324px;
+  position: relative;
+  margin: 0 auto;
+}
+.footer-top .container::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  clear: both;
+}
+
+#footer .footer-left {
+  height: 324px;
+  float: left;
+  width: 884px;
+}
+
+#footer .footer-right {
+  height: 324px;
+  float: right;
+  width: 310px;
+}
+
+#footer .-right-title {
+  width: 200px;
+  padding-right: 20px;
+  margin: 0;
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-size: 18px;
+  color: #666;
+  height: 40px;
+  line-height: 40px;
+}
+#footer .-right-title .footer-right-box {
+  width: 310px;
+  margin-top: 23px;
+}
+
+.footer-right .fonter-phone-icon {
+  height: 50px;
+  width: 46px;
+  line-height: 50px;
+  float: left;
+  background: url(../img/sprites.png) -55px -153px;
+}
+.footer-right .small-line-style {
+  height: 35px;
+  line-height: 35px;
+}
+.footer-right .small-line-style .kefu-word {
+  padding-left: 20px;
+  font-size: 14px;
+  color: #005aaa;
+}
+
+.tubiao-footer {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 5px;
+  left: 12px;
+  background: url(../img/sprites.png) -22px -396px;
+}
+
+.fonter-phone-content {
+  width: 255px;
+  height: 50px;
+}
+.fonter-phone-content .content-phone {
+  font-size: 24px;
+  color: #004ea2;
+  height: 30px;
+  font-weight: bold;
+}
+.fonter-phone-content .content-time {
+  height: 20px;
+  color: #999;
+  font-size: 13px;
+}
+
+#footer .footer-left {
+  float: left;
+  width: 884px;
+}
+
+.bt-nav {
+  width: 220px;
+  float: left;
+}
+.bt-nav .first-a {
+  padding-right: 20px;
+  margin: 0;
+  font-weight: normal;
+  display: inline-block;
+  font-size: 18px;
+  color: #666;
+  line-height: 40px;
+  text-decoration: none;
+  width: 200px;
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.first-a-child {
+  width: 200px;
+  margin-top: 20px;
+  list-style: none;
+}
+.first-a-child .child-text {
+  padding-right: 20px;
+  margin: 0;
+  font-weight: normal;
+  display: inline-block;
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 14px;
+  text-decoration: none;
+  width: 200px;
+  height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*# sourceMappingURL=login.css.map */

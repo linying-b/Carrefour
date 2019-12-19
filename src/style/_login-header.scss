@@ -1,0 +1,207 @@
+
+*{
+    margin: 0;
+    height: 0;
+}
+.user-header{
+    width: 1440px;
+    height: 108px!important;
+    background-color:  #fafafa;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 30px rgba(193, 193, 193, 0.5);
+    position: relative;
+    z-index: 1000;
+}
+#h-banner {
+    position: relative;
+    z-index: 130;
+    background-color: inherit;
+}
+.container{
+    height: 108px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.user-logo{
+    margin: 0 !important;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #eee;
+    bottom: -185px;
+    padding: 25px 15px;
+    box-shadow: 1px 1px 30px rgba(193, 193, 193, 0.8);
+    width: 178px;
+    height: 187px !important;
+    border-radius: 0;
+    text-align: center;
+}
+.login-logo{
+   width: 182px;
+   height: 198px;
+}
+
+.use-title{
+    margin-left: 260px;
+    position: absolute;
+    bottom: 15px;   
+    width: 168px;
+    height: 55px;
+    .title1{
+    font-size: 24px;
+    color: #ea202c;
+    width: 168px;
+    height: 33px;
+    }
+    
+}
+.user-header{
+   .title2{
+    font-size: 16px;
+    color: #666;
+     height: 22px;
+     width: 168px;
+    } 
+}
+
+.user-header{
+.user-right{
+    height: 25px;
+    width: 289px;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 120px;
+     
+    .toLogin-show{
+    font-size: 14px;
+    width: 140px;
+    height: 20px;
+    color: #666;
+    a{
+    color: #004ea2;
+    text-decoration: none;
+    outline: none;   
+    }    
+} 
+}
+}
+.cut-languge{
+    padding-left: 30px; 
+}
+
+
+//中间登陆部分 
+.login-one {
+    width: 100%;
+    height: 657px;
+    position: relative;
+    background:paleturquoise;
+}
+.login-top{
+    width: 1200px;
+    margin: 0 auto;
+    height: 657px;
+    background-color: transparent;
+    position: relative;
+}
+
+#login-page{
+    height: 657px;
+    position: relative; 
+    .login-form{
+    margin-left: 785px;
+    width: 492px;
+    margin-top: 33px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    height: 593px;
+    position: absolute;
+    right: 40px;
+    border-radius: 8px;
+    .login-index{
+        height: 111px;
+        line-height: 72px;
+        font-weight: bold;
+        margin: 0px;
+        border-bottom: 1px solid #eee;
+        .login-line{
+        height: 72px;
+        width: 100%;
+        padding: 20px 0;
+        }  
+    }  
+    } 
+}
+ 
+.dl{
+    height: 72px;
+    width: 100%;
+    display: inline-block;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #004ea2;
+}
+
+.zhanghu{
+  width: 450px;
+  height: 54px;
+  margin: 30px auto; 
+  text-align: center;
+   .user-name{
+     display: inline-block;
+     width: 50px;
+     height: 34px;
+     line-height: 34px;
+    //  margin-top:10px;
+  }
+  .user{
+    padding-left: 12px;
+    width: 200px;
+    height: 34px;
+    font-size: 16px;
+    border-color: #eee;
+  } 
+  .tishi{
+    display: inline-block;
+      width:140px;
+      height: 34px;
+      line-height: 34px;
+  }
+}
+
+
+.remember{
+    width: 450px;
+    height: 20px;
+    margin-left: 40px;
+    .user-box{
+        display: inline-block;
+        cursor: pointer;
+        height: 20px;
+        width: 120px;
+
+    }
+}
+
+.login-btn{
+    width: 490px;
+    height:74px;
+    .-btn{
+    height: 54px !important;
+    width: 450px!important;
+    margin-left: 20px;
+    margin-top:10px;
+    font-family: MicrosoftYaHei;
+    font-size: 20px;
+    letter-spacing: 6px;
+    color: #fff;
+    cursor:pointer;
+    background-color: #E9E9E9;
+    border-radius: 4px;  
+    }
+}
