@@ -185,7 +185,7 @@ $l-s:none;
     //右边5个li
     .mulu{
         text-decoration: none;
-        outline: none;
+        // outline: none;
         color:map-get($colors,b);
     }
 
@@ -193,6 +193,37 @@ $l-s:none;
         // float: left;
         position: relative;
         z-index: 1;
+    }
+
+    .top-list{
+        width: 80px;
+        height: 120px;
+        background: pink;
+        position: absolute;
+        z-index: 99px;
+        top: 40px;
+        left: 1025px;
+        list-style: none;
+        font-size: 12px;
+        display:block;
+        
+        .top-list-li{
+          margin-bottom: 5px; 
+          cursor: pointer;
+          padding-left: 7px;
+          color: #333;
+        }
+    }
+
+    .mobile{
+        width: 220px;
+        height: 100px;
+        z-index: 999px;
+        background: white;
+        position: absolute;
+        top: 40px;
+        left: 1020px;
+        display:none;
     }
 
 

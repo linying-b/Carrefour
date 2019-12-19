@@ -14,6 +14,7 @@
         margin: 0 auto;
         overflow: hidden;
         position: relative;
+        z-index: -1;
         .logo{
             margin-top: 27px;
             width: 357px;
@@ -29,9 +30,12 @@
 
 // 顶部悬浮框部分
 .top-float-box{
-  width:1440px;
+  width:1425px;
   height: 68px;
   background-color: #005aaa;
+//   transition-duration: 1s;
+//   transition-timing-function:linear;
+//   transition:  all 2s;
 }
 
 
