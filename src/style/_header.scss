@@ -24,6 +24,7 @@ $l-s:none;
 
 #top{
     width: 1425px;
+    // width: 100%;
     height: $height;
     // position: relative;
     @include positionvalue();
@@ -205,7 +206,11 @@ $l-s:none;
         left: 1025px;
         list-style: none;
         font-size: 12px;
-        display:block;
+        display:none;
+        &.item{
+         display: block !important;
+         background: green;
+        }
         
         .top-list-li{
           margin-bottom: 5px; 

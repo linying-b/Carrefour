@@ -35,36 +35,46 @@ window.onscroll=function(){
 }
 }
 //移入移出
-// topmove(){
-// let _this=this;
-// for(let i=0;i<this.topLi.length;i++){
-// _this.topLi[i].onmouseover=function () {
-//     _this.toplist[i].className=;
-//     for(let j=0;j<_this.olLi.length;j++){
-//         _this.oiLi[i].onmouseover=function(){
-//             _this.style.background="green";
-//         }
-//     }   
-// } 
+topmove(){
+let _this=this;
+for(let i=0;i<this.topLi.length;i++){
+_this.topLi[i].onmouseover=function () {
+        _this.tabswitch(i);
+    }   
+} 
 
-// _this.topLi[i].onmouseout=function () {
-//     _this.toplist.style.display="none";   
-// } 
+_this.topLi[i].onmouseout=function () {
+    _this.removeswitch(i);
+} 
     
 }
-
-
-// }
  
 //切换过程
 
-// tabswitch(){
-//     for(j=0;j<this.)
+tabswitch(i){
+    let _this=this;
+    for(let j=0;j<this.toplist.length;j++){
+       _this.toplist[j].className='top-list';
+       
+    }
+        _this.toplist[i].className='top-list item'
+}
 
-// }
-// }
 
-// }
+//消失过程
+removeswitch(i){
+    let _this=this;
+    for(let j=0;j<this.toplist.length;j++){
+        // _this.toplist[j].className='top-list';
+        _this.toplist[j].style.display='none'
+     }
+         
+}
+
+
+}
+
+
 
 
 

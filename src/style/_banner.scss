@@ -1,10 +1,12 @@
 .clear{
     clear: both;
     width: 1425px;
+    // width: 100%;
 }
 
 .h-banner-box{
     width: 1425px;
+    // width: 100%;
     height:160px;
     margin-top: 15px;
     #h-banner{
@@ -30,7 +32,7 @@
 
 // 顶部悬浮框部分
 .top-float-box{
-  width:1425px;
+  width:100%;
   height: 68px;
   background-color: #005aaa;
 //   transition-duration: 1s;
